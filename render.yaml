@@ -2,7 +2,7 @@ services:
 - type: web
   name: next-js
   env: node
-  nodeVersion: latest
+  nodeVersion: 20.9.0
   plan: starter
   buildCommand: yarn; yarn build
   startCommand: yarn start
